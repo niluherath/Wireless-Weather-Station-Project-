@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Advice</title>
+	<style>
+		h1   {color: black;
+		font-family: verdana;
+		font-size: 200%;
+		}
+		div {
+    	background: misty.jpg;
+    	background-size: 25%;
+    	border: 2px solid #92b901;
+		}
+	</style>
+
+	<script type="text/JavaScript">
+		function TimeRefresh(t) {
+			setTimeout("location.reload(true);",t);
+		}
+	</script>
+</head>
+
+<body background="misty.jpg" onload="JavaScript:TimeRefresh(6000);">
+	<h1 align= "center">Flight Advice</h1>
+	<header><center><img align= "middle" src = "flight.png" height = "200px" width = "300"></center></header>
+	<br>
+
+	<IMG SRC="http://localhost/flightAdvice/avgTemperature.php">
+	<br>
+	<br>
+	<button onclick="goBack()">Go Back</button>
+		<script>
+		function goBack() {
+		    window.history.back();
+		}
+	</script>
+</body>
+
+</html>
+
+

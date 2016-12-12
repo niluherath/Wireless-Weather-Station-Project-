@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flight Advice</title>
+<style>
+	h1 {
+	color: black;
+	font-family: calibri;
+	font-size: 200%;
+	}
+	div {
+    background: misty.jpg;
+    background-size: 25%;
+    border: 2px solid #92b901;
+	}
+	p {
+	font-family: calibri;
+	}
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #100;
+	}
+
+	li {
+	    float: left;
+	}
+
+	li a {
+	    display: inline-block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+
+	li a:hover {
+	    background-color: #100;
+	}
+
+</style>
+<h1 align= "center">Flight Advice</h1>
+</h3>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body background="misty.jpg">
+
+	<ul>
+				<li><a class="active" href="#home">Home</a></li>
+			    <li><a href="http://localhost/flightAdvice/selectAvgWindSpeed.html">AverageWindSpeed</a></li>
+			    <li><a href="http://localhost/flightAdvice/selectAvgWindGust.html">WindGust</a></li>
+			    <li><a href="http://localhost/flightAdvice/selectWindDirection.html">WindDirection</a></li>
+			    <li><a href="http://localhost/flightAdvice/selectAvgTemperature.html">AverageTemperature</a></li>
+			    <li><a href="http://localhost/flightAdvice/selectDetails.html">Sensor Readings</a></li>
+			    <li><a href="http://metservice.com/national/home">MetService Website</a></li>
+			    <li><a href="http://localhost/flightAdvice/aboutus.html">About Us</a></li>
+			    <li><a href="http://localhost/flightAdvice/contactus.html">Contact Us</a></li>
+			    <li><a href="http://localhost/flightAdvice/loginPage.html">Logout</a></li>
+
+	</ul>
+	<header><center><img align= "middle" src = "flight.png" height = "200px" width = "300"></center></header>
+	<p align = "center">Flight advice is a volunteer website that provides
+	weather information for hang gliders who engage themselves in hang gliding in the Paraparaumu area.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<button onclick="goBack()">Go Back</button>
+	<script>
+	function goBack() {
+	    window.history.back();
+	}
+	</script>
+
+
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Advice</title>
+	<style>
+		h1   {color: black;
+		font-family: verdana;
+		font-size: 200%;
+		}
+		div {
+    	background: misty.jpg;
+    	background-size: 25%;
+    	border: 2px solid #92b901;
+		}
+	</style>
+
+	<script type="text/JavaScript">
+		function TimeRefresh(t) {
+			setTimeout("location.reload(true);",t);
+		}
+	</script>
+</head>
+
+<body background="misty.jpg" onload="JavaScript:TimeRefresh(10000);">
+	<h1 align= "center">Flight Advice</h1>
+	<header><center><img align= "middle" src = "flight.png" height = "100px" width = "200"></center></header>
+	<br>
+	<p>Instructions to read wind direction<br>
+		1. Read the amount on Y axis.<br>
+		2. This is the "direction" given on the key below the chart.<br>
+		3. Read the respective wind direction given on the chart.<br>
+		4. For example, if the direction value is aroind 11, the wind direction is North.<br>
+	</p>
+	<IMG SRC="http://localhost/flightAdvice/detailWindDirection.php">
+	<br>
+	<IMG SRC="WindDirectionVsReading.jpg">
+	<button onclick="goBack()">Go Back</button>
+		<script>
+		function goBack() {
+		    window.history.back();
+		}
+	</script>
+
+</body>
+
+</html>
+
+

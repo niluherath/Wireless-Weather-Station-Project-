@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Advice</title>
+	<style>
+		h1   {color: black;
+		font-family: verdana;
+		font-size: 200%;
+		}
+		div {
+    	background: misty.jpg;
+    	background-size: 25%;
+    	border: 2px solid #92b901;
+		}
+	</style>
+
+	<script type="text/JavaScript">
+		function TimeRefresh(t) {
+			setTimeout("location.reload(true);",t);
+		}
+	</script>
+</head>
+
+<body background="misty.jpg" onload="JavaScript:TimeRefresh(6000);">
+	<h1 align= "center">Flight Advice</h1>
+	<header><center><img align= "middle" src = "flight.png" height = "200px" width = "300"></center></header>
+	<br>
+
+	<p>My name is Nilu Herath. I am a final year IT student majoring in Software engineering. The objective of the FlightAdvice project is to build a wrireless
+	weather station. The hardwired option is completed by me and the wireless option of the weatherstation will hopefully be finished by the next batch of stduents in next year. The Arduino code, the design, database and the website can be reused to make the wireless weather station.</p>
+	<br>
+	<br>
+	<button onclick="goBack()">Go Back</button>
+		<script>
+		function goBack() {
+		    window.history.back();
+		}
+	</script>
+</body>
+
+</html>
+
+

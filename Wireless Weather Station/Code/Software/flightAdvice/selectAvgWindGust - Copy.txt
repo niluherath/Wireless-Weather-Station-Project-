@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Advice</title>
+	<style>
+		h1   {color: black;
+		font-family: verdana;
+		font-size: 200%;
+		}
+		div {
+    	background: misty.jpg;
+    	background-size: 25%;
+    	border: 2px solid #92b901;
+		}
+	</style>
+
+	<script type="text/JavaScript">
+		function TimeRefresh(t) {
+			setTimeout("location.reload(true);",t);
+		}
+	</script>
+</head>
+
+<body background="misty.jpg" onload="JavaScript:TimeRefresh(6000);">
+	<h1 align= "center">Flight Advice</h1>
+	<header><center><img align= "middle" src = "flight.png" height = "200px" width = "300"></center></header>
+	<br>
+	<p>A wind gust is a sudden, brief increase in the speed of the wind followed by a lull.<br>
+	Gusts are reported when the peak wind speed reaches<br>
+	at least 29km/h and the variation in wind speed between the peaks and lulls is at least about 16.1km/h</p>
+	<IMG SRC="http://localhost/flightAdvice/detailWG.php">
+	<br>
+	<br>
+	<button onclick="goBack()">Go Back</button>
+		<script>
+		function goBack() {
+		    window.history.back();
+		}
+	</script>
+</body>
+
+</html>
+
+
